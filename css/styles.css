@@ -12,10 +12,10 @@ h1 {
   margin: 0;
 }
 
-span {
-    color: black;
-    font-size: 2em;
-  }
+.log {
+  color: black;
+  font-size: 2em;
+}
 
 p {
   text-align: left;
@@ -33,6 +33,10 @@ p {
 .item {
   display: 1 1 1;
   margin: 30px 0 0 0;
+}
+
+.site-construcion {
+  font-size: 1em;
 }
 
 .social-icons {
@@ -90,7 +94,7 @@ p {
   background-color: #3b5998;
 }
 .social-icons a.instagram:hover {
-  background-color: #f52703;
+  background-color: #f70168;
 }
 .social-icons a.linkedin:hover {
   background-color: #007bb6;
