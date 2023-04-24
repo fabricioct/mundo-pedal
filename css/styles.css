@@ -6,6 +6,17 @@ body {
   text-align: center;
 }
 
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../img/background.png");
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
 h1 {
   color: black;
   font-size: 4em;
@@ -20,8 +31,8 @@ h1 {
 p {
   text-align: left;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 600px;
   color: #ffffff;
+  max-width: 600px;
 }
 
 .container {
@@ -108,11 +119,6 @@ p {
     display: block;
     margin-right: 0;
     font-weight: 600;
-  }
-
-  p{
-    width: 400px;
-    padding-left: 10px;
   }
 
   h1 {
