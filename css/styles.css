@@ -22,7 +22,7 @@ body {
 
 .item {
   flex: 1;
-  max-width: 900px;
+  width: 900px;
 }
 
 .logo {
