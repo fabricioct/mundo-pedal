@@ -1,0 +1,130 @@
+html{
+
+	width: 100%;
+}
+
+body {
+	background: #2C303C;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	align-items: center;
+}
+h1 {
+	text-align: center;
+	color: #999;
+	background: rgba(0, 0, 0, 0.36);
+	margin: 0;
+	padding: 5px;
+}
+h2 {
+	text-align: center;
+	color: #999; 
+	margin: 0;
+	padding: 5px;
+	font-size: 1.8em;
+	margin-bottom: 30px;
+} 
+
+hr{
+	margin: 30px 20px;
+	border-top:2px solid #1C1E26 ;
+	border-bottom:2px solid #38404D;
+}
+ 
+.wrapper {
+
+width: 100%;
+	 
+
+}
+
+.logo {
+	padding-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+img {
+	border-radius: 50%;
+	width: 200px;
+  }
+
+.social {
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.social a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+}
+.social span {
+  margin-left: 10px;
+}
+
+
+.social ul {
+	padding-left: 0;
+	list-style: none;
+	
+}
+
+.list-inline ul {
+	display: block;
+	
+
+}
+.list-inline li {
+
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+}
+/*---- Genral classes end -------*/
+
+/*Change icons size here*/
+.social-icons .fa {
+	font-size: 1.8em;
+}
+/*Change icons circle size and color here*/
+.social-icons .fa {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #FFF;
+	color: rgba(255, 255, 255, 0.8);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.social-icons.icon-circle .fa{ 
+	border-radius: 50%;
+}
+
+.social-icons .fa:hover, .social-icons .fa:active {
+	color: #FFF;
+	-webkit-box-shadow: 1px 1px 3px #333;
+	-moz-box-shadow: 1px 1px 3px #333;
+	box-shadow: 1px 1px 3px #333; 
+}
+.social-icons.icon-zoom .fa:hover, .social-icons.icon-zoom .fa:active { 
+ 	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1); 
+}
+
+.social-icons .fa-whatsapp{background-color:#24cc63;}
+.social-icons .fa-instagram{background-color:#f503b6;}
+.social-icons .fa-facebook {background-color:#3C599F;}  
