@@ -11,7 +11,7 @@ html, body{
 	width: 100%;
 }
 
-header, main, footer{
+header, main, footer, h2{
 
 	display: flex;
 	justify-content: center;
@@ -25,7 +25,7 @@ header {
 
 header img {
 	border-radius: 50%;
-	width: 10em;
+	width: 11em;
   }
 
 main a {
@@ -39,9 +39,16 @@ main a {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+main h2 {
+
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 main span {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
   font-size: 1.2em;
 }
 
@@ -50,6 +57,7 @@ main ul li {
 	margin: 15px;
 	background-color: #f1702b;
 	border-radius: 10px;
+	min-width: 300px;
 	
 }
 
@@ -57,6 +65,7 @@ main ul li:hover {
 
 	background-color: #ffa071;	
 }
+
 
 footer {
 	padding-top: 50px;
