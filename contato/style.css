@@ -17,7 +17,6 @@ body{
 	background-position: center center;
     background-size: 100%;
     background-repeat: no-repeat;
-	text-align:center;
 	
 }
 
@@ -40,7 +39,6 @@ header img {
 	border-radius: 50%;
 	width: 11em;
 }
-
 
 article
 {
@@ -92,7 +90,7 @@ main ul li:hover {
 
 footer {
 	padding-top: 50px;
-	font-family: 'Courier New', Courier, monospac;
+	font-family: 'Courier New', Courier;
 }
 
 /*Change icons size here*/
@@ -133,28 +131,27 @@ footer {
 	transform: scale(1.1); 
 }
 
-/* .social-icons .fa-whatsapp{background-color:#24cc63;}
+/* 
+.social-icons .fa-whatsapp{background-color:#24cc63;}
 .social-icons .fa-instagram{background-color:#f503b6;}
 .social-icons .fa-facebook {background-color:#3C599F;}  
-.social-icons .fa-map {background-color:#4886f3;}   */
-
-
+.social-icons .fa-map {background-color:#4886f3;} 
+*/
 
 @media screen and (max-width: 1280px) {
 
-	body{
-	
-		background-image: none;
-	
+	body{	
+
+		background-image: none;	
+		
 	}
   }
 
 @media screen and (max-width: 498px) {
 
-	article
-	{
+	article{
 
-		min-width: 95%;
-		
+		min-width: 95%;		
+
 	}
   }
