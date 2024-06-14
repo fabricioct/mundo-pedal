@@ -13,10 +13,10 @@ html, body{
 
 body{
 	
-	/* background:  url("background_ 1920x1280.jpg");
+	background:  url("background_ 1920x1280.jpg");
 	background-position: center center;
     background-size: 100%;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
 
 
 }
@@ -126,4 +126,18 @@ footer {
 .social-icons .fa-instagram{background-color:#f503b6;}
 .social-icons .fa-facebook {background-color:#3C599F;}  
 .social-icons .fa-map {background-color:#4886f3;}   */
+
+
+/*caso resolução for no máximo 992px*/
+@media screen and (max-width: 1280px) {
+
+	body{
 	
+
+		background-image: none;
+
+	
+	}
+
+
+  }
