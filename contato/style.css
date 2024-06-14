@@ -11,6 +11,18 @@ html, body{
 	width: 100%;
 }
 
+body{
+	
+	/* background:  url("background_ 1920x1280.jpg");
+	background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat; */
+
+
+}
+
+
+
 header, main, footer, h2{
 
 	display: flex;
@@ -21,6 +33,7 @@ header {
 
 	padding-top: 10px;
 	padding-bottom: 20px;
+	
 }
 
 header img {
@@ -48,7 +61,6 @@ main h2 {
 
 main span {
   margin-left: 0.5em;
-
   font-size: 1.2em;
 }
 
@@ -75,7 +87,7 @@ footer {
 /*Change icons size here*/
 .social-icons .fa {
 	font-size: 1.8em;
-	margin: 10px ;
+	margin: 5px ;
 }
 /*Change icons circle size and color here*/
 .social-icons .fa {
@@ -110,7 +122,8 @@ footer {
 	transform: scale(1.1); 
 }
 
-.social-icons .fa-whatsapp{background-color:#24cc63;}
+/* .social-icons .fa-whatsapp{background-color:#24cc63;}
 .social-icons .fa-instagram{background-color:#f503b6;}
 .social-icons .fa-facebook {background-color:#3C599F;}  
-.social-icons .fa-map {background-color:#4886f3;}  
+.social-icons .fa-map {background-color:#4886f3;}   */
+	
