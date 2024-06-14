@@ -17,17 +17,17 @@ body{
 	background-position: center center;
     background-size: 100%;
     background-repeat: no-repeat;
-
-
+	text-align:center;
+	
 }
-
-
 
 header, main, footer, h2{
 
 	display: flex;
 	justify-content: center;
+
 }
+
 
 header {
 
@@ -39,7 +39,19 @@ header {
 header img {
 	border-radius: 50%;
 	width: 11em;
-  }
+}
+
+
+article
+{
+	min-width: 350px;
+}
+
+section
+{
+    width: 100%;
+    margin:auto;	
+}
 
 main a {
     color: #FFF;
@@ -66,18 +78,17 @@ main span {
 
 main ul li {
 
-	margin: 15px;
+	margin: 10px 0 10px 0;
 	background-color: #f1702b;
 	border-radius: 10px;
-	min-width: 350px;
-	
+	width: 100%;
+
 }
 
 main ul li:hover {
 
 	background-color: #ffa071;	
 }
-
 
 footer {
 	padding-top: 50px;
@@ -128,16 +139,22 @@ footer {
 .social-icons .fa-map {background-color:#4886f3;}   */
 
 
-/*caso resolução for no máximo 992px*/
+
 @media screen and (max-width: 1280px) {
 
 	body{
 	
-
 		background-image: none;
-
 	
 	}
+  }
 
+@media screen and (max-width: 498px) {
 
+	article
+	{
+
+		min-width: 95%;
+		
+	}
   }
