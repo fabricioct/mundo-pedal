@@ -15,9 +15,9 @@ html, body{
 body{
 	
 	background:  url("background_ 1920x1280.jpg");
-	background-position: center center;
+	background-position: center center; 
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
 	font-family: "Roboto", sans-serif;
 	
 }
@@ -92,7 +92,7 @@ footer {
 
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 300;
+	font-weight: 500;
 	line-height: 1.375;
 	letter-spacing: -0.05em;
 	margin: 0 0 1rem 0;
@@ -178,7 +178,7 @@ h6 {
 .social-icons .fa-facebook {background-color:#3C599F;}  
 .social-icons .fa-map {background-color:#4886f3;} 
 */
-
+/* 
 @media screen and (max-width: 1280px) {
 
 	body{	
@@ -186,7 +186,7 @@ h6 {
 		background-image: none;	
 		
 	}
-  }
+  } */
 
 @media screen and (max-width: 498px) {
 
