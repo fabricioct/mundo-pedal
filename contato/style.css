@@ -162,7 +162,7 @@ h6 {
     min-width: 95%;
   }
   body {
-    background: url(background_vertical.jpg);
+    /* background: url(background_vertical.jpg); */
     background-size: 100%;
     background-repeat: repeat-y;
   }
