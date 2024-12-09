@@ -37,12 +37,11 @@ header img {
 }
 
 header{
-  background-image:  url('bg-mundo-pedal.jpg');
+  background-image:url('bg-mundo-pedal.jpg');
   height: 300px;
 }
 
-a[role="button"] {
-  
+a[role="button"] {  
   border-radius: 30px;
 }
 
@@ -52,8 +51,8 @@ section{
 
 section span{
    display: inline-block;
-   padding-left: 10px;
-   padding-right: 10px;
+   padding-left: 5px;
+   padding-right: 5px;
 }
 
 section span > span {
