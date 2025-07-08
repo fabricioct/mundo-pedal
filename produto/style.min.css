@@ -1,0 +1,89 @@
+:root {
+  --bio-color: #ffffff;
+}
+:root:not([data-theme="dark"]),
+[data-theme="light"] {
+  --pico-text-selection-color: rgba(244, 93, 44, 0.25);
+  --pico-primary: #bd3c13;
+  --pico-primary-background: #eb5d0dff;
+  --pico-primary-underline: rgba(189, 60, 19, 0.5);
+  --pico-primary-hover: #942d0d;
+  --pico-primary-hover-background: #bd3c13;
+  --pico-primary-focus: rgba(244, 93, 44, 0.5);
+  --pico-primary-inverse: #fff;
+}
+body {
+  text-align: center;
+}
+.container {
+  max-width: 576px;
+}
+footer {
+  font-size: small;
+}
+header img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: #eb5d0dff 5px solid;
+  width: 150px;
+  height: 150px;
+  margin-bottom: -500px;
+}
+header {
+  background-image: url(bg-mundo-pedal.jpg);
+  height: 300px;
+}
+a[role="button"] {
+  border-radius: 30px;
+}
+section {
+  margin-top: 50px;
+}
+section span {
+  display: inline-block;
+  width: 80px;
+}
+section span > span {
+  display: block;
+  font-size: small;
+}
+.social-icons .fa {
+  font-size: 1.8em;
+  margin: 5px;
+  background-color: var(--pico-primary-background);
+}
+.social-icons .fa {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: var(--bio-color);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-box-shadow: 1px 1px 3px #333;
+  -moz-box-shadow: 1px 1px 3px #333;
+  box-shadow: 1px 1px 3px #333;
+}
+.social-icons.icon-circle .fa {
+  border-radius: 50%;
+}
+.social-icons .fa:active,
+.social-icons .fa:hover {
+  color: var(--bio-color);
+  background-color: var(--pico-primary-hover-background);
+  -webkit-box-shadow: 1px 1px 3px #333;
+  -moz-box-shadow: 1px 1px 3px #333;
+  box-shadow: 1px 1px 3px #333;
+}
+.social-icons.icon-zoom .fa:active,
+.social-icons.icon-zoom .fa:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
